@@ -9,5 +9,4 @@ class Solution:
                 res=min(r-l+1,res)
                 total -= nums[l]
                 l+=1
-            r+=1
         return 0 if res==float('inf') else res
