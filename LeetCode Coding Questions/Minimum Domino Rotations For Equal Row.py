@@ -12,7 +12,6 @@
 # The first figure represents the dominoes as given by tops and bottoms: before we do any rotations.
 # If we rotate the second and fourth dominoes, we can make every value in the top row equal to 2, as indicated by the second figure.
 
-
 class Solution:
     def minDominoRotations(self, tops: List[int], bottoms: List[int]) -> int:
         faceA=[0]*7
